@@ -707,6 +707,7 @@ form.search button:hover{
     padding-bottom: 0.5em;
     margin-bottom: 2em;
     border-bottom: 1px solid var(--border-color);
+    margin-top: 2em;
 }
 
 .sectop h2{

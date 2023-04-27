@@ -9,9 +9,20 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 </head>
+<style>
+    @media screen and (min-width:992px) {
+        .trending{
+            margin-left: 25em;
+        }
+
+        .trending .products .item{
+            margin-left: 5em;
+        }
+        
+    }
+</style>
 <body>
     <div id="page" class="site">
-
         <aside class="site-off desktop-hide">
             <div class="off-canvas">
                 <div class="canvas-head flexitem">
@@ -73,8 +84,8 @@
                         <div class="logo"><a href="/"><span class="circle"></span>.Store</a></div>
                         <nav class="mobile-hide">
                             <ul class="flexitem second-links">
-                                <li><a href="#" style="color: chocolate;">Home</a></li>
-                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="shop.html" style="color: chocolate;">Shop</a></li>
                                 <li class="has-child">
                                     <a href="#">Women
                                         <div class="icon-small"><i class="ri-arrow-down-s-line"></i></div>
@@ -199,7 +210,7 @@
                 </div>
             </div>
         </div>
-           <div class="header-main mobile-hide">
+        <div class="header-main mobile-hide">
             <div class="container">
                 <div class="wrapper flexitem">
                     <div class="left">
@@ -389,105 +400,6 @@
         </header>
         <!--header-->
         <main>
-            <div class="slider">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="myslider swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="image object-cover">
-                                            <img src="assests/slider2.JPG" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Shoes Fashion</h4>
-                                            <h2><span>Come and Get it!</span><br><span>Brand New Shoes</span></h2>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="image object-cover">
-                                            <img src="assests/slider/IMG_6720.JPG" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Quick Fashion</h4>
-                                            <h2><span>Fit Your Wardrobe</span><br><span>Brand New Clothes</span></h2>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="image object-cover">
-                                            <img src="assests/slider/sofa.JPG" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Quick Offer</h4>
-                                            <h2><span>Wooden Minimal Sofa</span><br><span>Extra 50% Off!</span></h2>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="image object-cover">
-                                            <img src="assests/slider/workout.JPG" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Best Deals</h4>
-                                            <h2><span>Home Workout Accessories</span><br><span>Burn The Fat At Home</span></h2>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- slider -->
-            <!-- <div class="brands">
-                <div class="container">
-                    <div class="wrapper flexitem">
-                        <div class="item">
-                            <a href="#">
-                                <img src="assests/asus.png" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assests/oppo.png" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assests/d&g.png" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assests/asus.png" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assests/asus.png" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="assests/mercedes.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- brands -->
- 
             <div class="trending">
                 <div class="container">
                     <div class="wrapper">
@@ -496,55 +408,6 @@
                         </div>
                         <div class="column">
                             <div class="flexwrap">
-                                <div class="row products big">
-                                    <div class="item">
-                                        <div class="offer">
-                                            <p>Offer ends at</p>
-                                            <ul class="flexcenter">
-                                                <li>1</li>
-                                                <li>15</li>
-                                                <li>27</li>
-                                                <li>60</li>
-                                            </ul>
-                                        </div>
-                                        <div class="media">
-                                            <div class="image">
-                                                <a href="#">
-                                                    <img src="assests/wd0.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="hoverable">
-                                                <ul>
-                                                    <li class="active"><a href="#"><i class="ri-heart-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-eye-line"></i></a></li>
-                                                    <li><a href=""><i class="ri-shuffle-line"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="discount circle flexcenter"><span>31%</span></div>
-                                        </div>
-                                        <div class="content">
-                                            <div class="rating">
-                                                <div class="stars"></div>
-                                                <span class="mini-text">(2,548)</span>
-                                            </div>
-                                            <h3 class="main-links"><a href="#">Happy Sailed Womens Boho Floral</a></h3>
-                                            <div class="price">
-                                                <span class="current">$129.99</span>
-                                                <span class="normal mini-text">$189.98</span>
-                                            </div>
-                                            <div class="stock mini-text">
-                                                <div class="qty">
-                                                    <span>Stock: <strong class="qty-available">107</strong></span>
-                                                    <span>Sold: <strong class="qty-sold">3,459</strong></span>
-                                                </div>
-                                                <div class="bar">
-                                                    <div class="available"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
                                 <div class="row products mini">
                                     <div class="item">
                                         <div class="media">
@@ -1071,112 +934,9 @@
             </div>
 
             <!-- Feautred Products -->
-
-            <div class="banners">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="column">
-                            <div class="banner flexwrap">
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assests/fd3.png" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Brutal Sale!</h4>
-                                            <h3><span>Get the deal in here</span><br>Blue Coperate Gown</h3>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                        <a href="#" class="over-link"></a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="item get-gray">
-                                        <div class="image">
-                                            <img src="assests/fd7.png" alt="">
-                                        </div>
-                                        <div class="text-content flexcol">
-                                            <h4>Brutal Sale!</h4>
-                                            <h3><span>Discount Everyday</span><br>Evening Dinner Gown</h3>
-                                            <a href="#" class="primary-button">Shop Now</a>
-                                        </div>
-                                        <a href="#" class="over-link"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- banners -->
-
-                            <div class="product-categories flexwrap">
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assests/footer/makeuo.JPG" alt="">
-                                        </div>
-                                        <div class="content mini-links">
-                                            <h4><a href="#">Beauty</a></h4>
-                                            <ul class="flexcol">
-                                                <li><a href="#">Makeup</a></li>
-                                                <li><a href="#">Skin Care</a></li>
-                                                <li><a href="#">Hair Care</a></li>
-                                                <li><a href="#">Fragrance</a></li>
-                                                <li><a href="#">Foot & Hand Care</a></li>
-                                            </ul>
-                                            <div class="second-links">
-                                                <a href="#" class="view-all">View all<i class="ri-arrow-right-line"></i>
-                                            </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assests/footer/phone.JPG" alt="">
-                                        </div>
-                                        <div class="content mini-links">
-                                            <h4><a href="#">Gadgets</a></h4>
-                                            <ul class="flexcol">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Cell Phones</a></li>
-                                                <li><a href="#">Computers</a></li>
-                                                <li><a href="#">GPS & Navigation</a></li>
-                                                <li><a href="#">Headphones</a></li>
-                                            </ul>
-                                            <div class="second-links">
-                                                <a href="#" class="view-all">View all<i class="ri-arrow-right-line"></i>
-                                            </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="item">
-                                        <div class="image">
-                                            <img src="assests/footer/flower.JPG" alt="">
-                                        </div>
-                                        <div class="content mini-links">
-                                            <h4><a href="#">Home Decor</a></h4>
-                                            <ul class="flexcol">
-                                                <li><a href="#">Kitchen</a></li>
-                                                <li><a href="#">Dining Room</a></li>
-                                                <li><a href="#">Pantry</a></li>
-                                                <li><a href="#">Great Room</a></li>
-                                                <li><a href="#">Breakfast Nook</a></li>
-                                            </ul>
-                                            <div class="second-links">
-                                                <a href="#" class="view-all">View all<i class="ri-arrow-right-line"></i>
-                                            </a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
         </main>
-        <!--main-->
-        <footer>
+         <!--main-->
+         <footer>
             <div class="newsletter">
                 <div class="container">
                     <div class="wrapper">
@@ -1284,7 +1044,7 @@
             </div>
         </footer>
         <!--footer-->
-
+        
         <div class="menu-bottom desktop-hide">
             <div class="container">
                 <div class="wrapper">
@@ -1330,7 +1090,6 @@
         </div>
 
         <!-- menu bottom -->
-
         <div class="search-bottom desktop-hide">
             <div class="container">
                 <div class="wrapper">
@@ -1346,8 +1105,11 @@
 
         <!-- search bottom -->
         <div class="overlay"></div>
+
     </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+   
+    
 </body>
 </html>
